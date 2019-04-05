@@ -58,4 +58,8 @@ class Song
     song.name = song_info[1].strip
     @@all << song
   end
+  
+  def self.destroy_all
+    @@all = []
+  end
 end
