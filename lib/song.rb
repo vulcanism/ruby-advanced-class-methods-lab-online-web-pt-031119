@@ -52,7 +52,10 @@ class Song
   end
   
   def self.create_from_filename(mp3)
-    self.new_from_filename
+    song = self.new
+    song_info = mp3.split(/[\.\-]/)
+    song.artist_name = song_info[0].strip
+    song.name = song_info[1].strip
     @@all << song
   end
 end
