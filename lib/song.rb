@@ -52,5 +52,7 @@ class Song
   end
   
   def self.create_from_filename(mp3)
+    self.new_from filename
+    @@all << song
 
 end
