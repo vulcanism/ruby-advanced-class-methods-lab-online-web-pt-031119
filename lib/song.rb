@@ -50,5 +50,7 @@ class Song
     song.name = song_info[1].strip
     song
   end
+  
+  def self.create_from_filename
 
 end
