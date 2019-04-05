@@ -51,6 +51,6 @@ class Song
     song
   end
   
-  def self.create_from_filename(file)
+  def self.create_from_filename(mp3)
 
 end
