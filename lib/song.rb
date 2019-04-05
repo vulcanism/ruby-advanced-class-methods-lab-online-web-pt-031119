@@ -47,6 +47,7 @@ class Song
     song = self.new
     song_info = mp3.split(/[\.\-]/)
     song.artist_name = song_info[0].strip
+    song.name = song_info[1].strip
   end
 
 end
