@@ -47,7 +47,7 @@ class Song
     song = self.new
     song_info = mp3.split(/[\.\-]/)
     song_info
-    binding.pry
+    
   end
 
 end
