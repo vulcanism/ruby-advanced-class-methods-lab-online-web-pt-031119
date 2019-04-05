@@ -42,8 +42,7 @@ class Song
   end
   
   def self.new_from_filename(mp3)
-    array = mp3.split("-")
-    array.reject { |s| s == ".mp3" }
+    
   end
 
 end
